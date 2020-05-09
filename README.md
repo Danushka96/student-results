@@ -19,3 +19,13 @@ Please Note:
       Database Name : online_exams
       Database User : online_exusr
       Pass words : online@123
+
+## How to install
+
+1. Clone the project and extract files into the webserver public directory
+1. Create a new database named online_exams
+2. Import the file db/online_exams.sql into the newly created database
+3. Edit db/connection.php with your database credentials
+4. Open the localhost/<your_folder_name> URL from a web browser
+5. First login as admin with credentials Username: admin, password: admin123
+6. When you add the students they can also log in to the system with the credentials you given
